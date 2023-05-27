@@ -21,7 +21,7 @@ public class MovieController {
     }
 
     @PostMapping("/add-director")
-    public ResponseEntity addDriector(@RequestBody Director director)
+    public ResponseEntity addDirector(@RequestBody Director director)
     {
         movieService.addDirector(director);
         return new ResponseEntity("success",HttpStatus.OK);
