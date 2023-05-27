@@ -31,11 +31,11 @@ public class Director {
         this.numberOfMovies = numberOfMovies;
     }
 
-    public double getImbdRating() {
+    public double getImdbRating() {
         return imdbRating;
     }
 
-    public void setImbdRating(double imbdRating) {
-        this.imdbRating = imbdRating;
+    public void setImdbRating(double imdbRating) {
+        this.imdbRating = imdbRating;
     }
 }
